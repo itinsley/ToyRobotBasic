@@ -11,6 +11,8 @@ class ToyRobot
 
   def place(x,y)
     raise InvalidPositionError.new("Invalid Position, #{x}, #{y}") if (x<0 || y<0)
+    @x=x
+    @y=y
   end
 end
 
