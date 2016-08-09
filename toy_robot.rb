@@ -4,7 +4,7 @@ class ToyRobot
   def initialize
     @x = 0
     @y = 0
-    @f = 'EAST'
+    @f = :east
   end
 
 end

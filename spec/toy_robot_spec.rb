@@ -12,6 +12,6 @@ RSpec.describe "ToyRobot" do
   end
 
   specify 'that ToyRobot f is set to EAST' do
-    expect(subject.f).to eq('EAST')
+    expect(subject.f).to eq(:east)
   end
 end
