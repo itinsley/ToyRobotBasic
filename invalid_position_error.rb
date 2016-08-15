@@ -1,0 +1,2 @@
+class InvalidPositionError < RuntimeError
+end
